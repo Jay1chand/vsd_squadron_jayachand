@@ -1,1 +1,1 @@
-# vsd_squadron_jayachand
+# vsd_squadron
