@@ -16,13 +16,13 @@ This is the code to run in terminal to get output:
 
 
 A program is run to obtain risc-v version of the code previously written in c:
+![image](https://github.com/user-attachments/assets/bec40d22-d99e-416a-82db-03d99369ab9e)
 
 
-![image](https://github.com/user-attachments/assets/e19a497a-bf48-4033-af91-3215a698deb1)
 
 
 
 As the whole version of above code looks lengthier with different commands, we have obtained the required main 
 part to compare the execution in assembly language:
-![image](https://github.com/user-attachments/assets/80d83b9f-0b93-4e43-b54b-99883b257855)
+![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
 
