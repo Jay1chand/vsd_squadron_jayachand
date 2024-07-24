@@ -18,7 +18,8 @@ This is the code to run in terminal to get output:
 A program is run to obtain risc-v version of the code previously written in c:
 
 
-![image](https://github.com/user-attachments/assets/0b427fd7-fe17-4364-9877-717b4eaffc7d)
+![image](https://github.com/user-attachments/assets/e19a497a-bf48-4033-af91-3215a698deb1)
+
 
 
 As the whole version of above code looks lengthier with different commands, we have obtained the required main 
