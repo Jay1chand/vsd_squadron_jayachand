@@ -12,7 +12,7 @@ write a program to compile the sum of first n natural numbers in c:
 This is the code to run in terminal to get output:
 
 
-![image](https://github.com/user-attachments/assets/585bdb20-4a84-4035-96f0-5ae9cf118860)
+![image](https://github.com/user-attachments/assets/06bc9aeb-f7b3-4572-b44f-719e189ea46b)
 
 
 A program is run to obtain risc-v version of the code previously written in c:
