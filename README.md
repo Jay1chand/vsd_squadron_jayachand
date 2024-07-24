@@ -24,5 +24,8 @@ A program is run to obtain risc-v version of the code previously written in c:
 
 As the whole version of above code looks lengthier with different commands, we have obtained the required main 
 part to compare the execution in assembly language:
+
+
+
 ![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
 
