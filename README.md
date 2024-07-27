@@ -58,9 +58,11 @@ and working of the whole program and how various registers like stack pointer an
 ### Spike file for the new c program (sub task 4):
 
 Dump file:
+
 ![image](https://github.com/user-attachments/assets/de84c4b0-b891-433f-a001-acd95ddc0ab2)
 
 Spike simulation:
+
 ![image](https://github.com/user-attachments/assets/e16a2aa1-139d-449c-ad9f-3275ec63ec7e)
 
 
