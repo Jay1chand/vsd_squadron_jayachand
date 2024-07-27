@@ -1,5 +1,6 @@
 # vsd_squadron
-Task 1:
+## Task 1:
+
 Firstly, I have downloaded the virtual box from the links provided to us and
 loaded a linux version with image dock file sent, Then I have successfully run the
 virtual machine and compiled the tasks.
@@ -28,4 +29,18 @@ part to compare the execution in assembly language:
 
 
 ![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
+
+
+
+## Task 2:
+
+For this task, we are instructed to observe the spike simulation and understand the execution of assembly code using -o1 and -ofast directives, I understood the principle
+and working of the whole program and how various registers like stack pointer and r5 are increasing, understood how the interface explains the process itself.
+
+![image](https://github.com/user-attachments/assets/a86e0441-2dab-4380-a2c6-965ca58aab54)
+
+
+![image](https://github.com/user-attachments/assets/a20b50f4-0a36-47b8-bb21-6339b579de3e)
+
+
 
