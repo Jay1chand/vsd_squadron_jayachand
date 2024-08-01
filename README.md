@@ -206,7 +206,31 @@ and assembly language corresponding to it.
 
 ### TASK 4:
 
-Reference github repository with existing code for a RISC machine is : ![[Github](https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v)]
+Reference github repository with existing code for a RISC machine is : [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v)
+
+GTK Wave already installed so no need to follow the step from above github readme
+Then the following steps are followed to open the gtk wave simulation of the above source code:
+1. Create a new directory with your name
+2. Create two files namely jayrv32.v jayrv32_tb.v  
+3. Copy the code from the reference github repo and paste it in your verilog and testbench files.
+4. To run and simulate the verilog code, enter the following command:  
+	```
+	$ iverilog -o jayrv32i jayrv32.v jayrv32_tb.v
+	$ ./jayrv32i
+	```
+5. To see the simulation waveform in GTKWave, enter the following command:
+	```
+	$ gtkwave iiitb_rv32i.vcd
+	```
+
+6. The GTKWave will be opened and following window will be appeared  
+  
+![image](https://github.com/user-attachments/assets/8ebb8c40-d549-4bd2-9521-92a4200b617c)
+
+As shown in the figure below, all the instructions in the given verilog file is hard-coded, the designer has hard-coded each instructions based on their own pattern. Hence the 32-bits instruction that we generated in above task will not match with the given instruction.
+
+![image](https://github.com/user-attachments/assets/512edc06-4524-43f7-833f-e3d087869a38)
+
 
 
 
