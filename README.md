@@ -146,14 +146,38 @@ R-type instructions are used for operations that functions among registers only.
 
 ### 15 Unique instructions: 
 
-![image](https://github.com/user-attachments/assets/18f62720-66f6-47d0-b747-4881de58a708)
-![image](https://github.com/user-attachments/assets/c59af6a0-115e-474a-96fd-60c257ff54d4)
-![image](https://github.com/user-attachments/assets/d3d56790-9943-4573-acc0-6ccbfa6169cd)
-![image](https://github.com/user-attachments/assets/17111d89-6b18-4d1a-97e0-9cf32b9adb49)
-![image](https://github.com/user-attachments/assets/224dec09-1377-4553-b07b-b66ac8f3f6ee)
-![image](https://github.com/user-attachments/assets/442caa30-6254-40d1-8ace-0d82cb84a393)
-![image](https://github.com/user-attachments/assets/5df76f64-8274-4489-8725-72a9704a298d)
-![image](https://github.com/user-attachments/assets/f0eb2f7c-8454-4803-9c55-f9316fb0d309)
-![image](https://github.com/user-attachments/assets/5d450aec-3f62-4611-affe-c30c0f007077)
-![image](https://github.com/user-attachments/assets/729e8568-d1f4-4700-b9c5-5ebf126687c3)
-![image](https://github.com/user-attachments/assets/34dc0994-e3cc-4ae7-b361-e1de0f0db23f)
+# Image Gallery
+
+## Image 1
+![Image 1](https://github.com/user-attachments/assets/18f62720-66f6-47d0-b747-4881de58a708)
+
+## Image 2
+![Image 2](https://github.com/user-attachments/assets/c59af6a0-115e-474a-96fd-60c257ff54d4)
+
+## Image 3
+![Image 3](https://github.com/user-attachments/assets/d3d56790-9943-4573-acc0-6ccbfa6169cd)
+
+## Image 4
+![Image 4](https://github.com/user-attachments/assets/17111d89-6b18-4d1a-97e0-9cf32b9adb49)
+
+## Image 5
+![Image 5](https://github.com/user-attachments/assets/224dec09-1377-4553-b07b-b66ac8f3f6ee)
+
+## Image 6
+![Image 6](https://github.com/user-attachments/assets/442caa30-6254-40d1-8ace-0d82cb84a393)
+
+## Image 7
+![Image 7](https://github.com/user-attachments/assets/5df76f64-8274-4489-8725-72a9704a298d)
+
+## Image 8
+![Image 8](https://github.com/user-attachments/assets/f0eb2f7c-8454-4803-9c55-f9316fb0d309)
+
+## Image 9
+![Image 9](https://github.com/user-attachments/assets/5d450aec-3f62-4611-affe-c30c0f007077)
+
+## Image 10
+![Image 10](https://github.com/user-attachments/assets/729e8568-d1f4-4700-b9c5-5ebf126687c3)
+
+## Image 11
+![Image 11](https://github.com/user-attachments/assets/34dc0994-e3cc-4ae7-b361-e1de0f0db23f)
+
