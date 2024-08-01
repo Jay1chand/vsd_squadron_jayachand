@@ -151,19 +151,16 @@ All of these are referenced from
 
 ##### Image 1
 ![Image 1](https://github.com/user-attachments/assets/18f62720-66f6-47d0-b747-4881de58a708)   
-binary code:
 ![image](https://github.com/user-attachments/assets/1f50842c-6d18-471a-9fa9-2c3982027e0c)
 
 
 ##### Image 2
 ![Image 2](https://github.com/user-attachments/assets/c59af6a0-115e-474a-96fd-60c257ff54d4)
-binary code:
 ![image](https://github.com/user-attachments/assets/179da90c-17cc-4d55-9ff6-ec6bbc52813a)
 
 
 ##### Image 3
 ![Image 3](https://github.com/user-attachments/assets/d3d56790-9943-4573-acc0-6ccbfa6169cd)
-binary code:
 ![image](https://github.com/user-attachments/assets/1fcaa41c-acda-46a6-a79e-3842234013c5)
 
 
