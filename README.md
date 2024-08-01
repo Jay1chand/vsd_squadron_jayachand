@@ -206,5 +206,7 @@ and assembly language corresponding to it.
 
 ### TASK 4:
 
-Reference github repository with existing code for a RISC machine is : ![link](https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v)
+Reference github repository with existing code for a RISC machine is : ![[Github](https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v)]
+
+
 
