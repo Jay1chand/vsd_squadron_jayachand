@@ -146,7 +146,7 @@ R-type instructions are used for operations that functions among registers only.
 
 ### 15 Unique instructions: 
 
-#### Image Gallery
+#### Instructions:
 
 ##### Image 1
 ![Image 1](https://github.com/user-attachments/assets/18f62720-66f6-47d0-b747-4881de58a708)
@@ -180,4 +180,5 @@ R-type instructions are used for operations that functions among registers only.
 
 ##### Image 11
 ![Image 11](https://github.com/user-attachments/assets/34dc0994-e3cc-4ae7-b361-e1de0f0db23f)
+
 
