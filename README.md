@@ -147,7 +147,8 @@ R-type instructions are used for operations that functions among registers only.
 ### 15 Unique instructions: 
 
 #### Instructions: 
-All of these are referenced from 
+All of these are referenced from the above code I have compiled in the virtual box, The below Image set each contains an image of the instruction code(hexadecimal)
+and assembly language corresponding to it.
 
 ##### Image 1
 ![Image 1](https://github.com/user-attachments/assets/18f62720-66f6-47d0-b747-4881de58a708)   
@@ -201,6 +202,7 @@ All of these are referenced from
 
 ##### Image 11
 ![Image 11](https://github.com/user-attachments/assets/34dc0994-e3cc-4ae7-b361-e1de0f0db23f)
-![image](https://github.com/user-attachments/assets/11f1c87b-674c-4c15-8775-3cdfbbf84746)
+![image](https://github.com/user-attachments/assets/8c252bd6-1313-450a-9efb-3e0510c9b171)
+
 
 
