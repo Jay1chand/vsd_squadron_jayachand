@@ -65,5 +65,82 @@ Spike simulation:
 
 ![image](https://github.com/user-attachments/assets/e16a2aa1-139d-449c-ad9f-3275ec63ec7e)
 
+## Task 3:
 
+Various instructions of the RISC-V processor:
+
+### INTRODUCTION:
+
+Firstly to understand, there are two releases of RISC-V documentation namely, Unpreviliged and Previliged specifications. We can read any one of them to understand the instruction 
+set of RISCV processor. The very important use of learning these formats is the very intention of understanding the instruction decoding and the way it is getting compiled.
+Some of the other uses are:
+
+1. **Instruction Set properties** 
+
+2. **Debugging** 
+
+3. **Easy Design**
+
+4. **Pipelining**
+
+### RISC-V R-Type Instructions
+
+R-type instructions are used for operations that functions among registers only. These instructions generally perform arithmetic, logical, and shift operations.
+
+#### Format: ![image](https://github.com/user-attachments/assets/522d5257-b978-4c93-9412-330372e1ab66)
+
+
+- **opcode**: Specifies the operation .
+- **rd**: Destination register.
+- **funct3**:specifies the operation.
+- **rs1**: First source register.
+- **rs2**: Second source register.
+- **funct7**:specifies the operation.
+
+
+### S-Type Instructions
+
+#### Format:![image](https://github.com/user-attachments/assets/04aca468-7811-480b-9f7c-d0cf30334753)
+
+
+**Example: SW rs1, imm(rs4)**
+- **opcode**: types of instruction
+- **imm**: Immediate value (seperated into immediate[11:5] and immediate[4:0])
+- **rs1**: Base address register
+- **rs2**: Source register to be stored
+-  **funct3**: 010 (for SW)
+
+### B-Type Instructions
+
+#### Format: ![image](https://github.com/user-attachments/assets/795c5e09-e97d-4df6-99b6-ab896b26880a)
+
+
+**Example: BEQ rs3, rs2, imm**
+- **opcode**: type of instruction like branch
+- **imm**: Immediate value (seperated into immediate[12], immediate[10:5], immediate[4:1], immediate[11])
+- **rs1**: Source register 1
+- **rs2**: Source register 2
+
+### U-Type Instructions
+
+#### Format:
+
+![image](https://github.com/user-attachments/assets/baf64187-b5aa-4464-8a42-f89520c549ec)
+
+**Example: LUI rd, imm**
+- **opcode**: intstruction type
+- **imm**: Upper 20 bits of the immediate value
+- **rd**: Destination register
+
+### J-Type Instructions
+
+#### Format:
+
+![image](https://github.com/user-attachments/assets/c4a497dc-e025-4177-b4d5-b56fa85efbf9)
+
+
+**Example: JAL rd, imm**
+- **opcode**: instruction type
+- **imm**: Immediate value (seperated into imm[20], imm[10:1], imm[11], imm[19:12])
+- **rd**: Destination register (stores the return address)
 
