@@ -1,4 +1,4 @@
-# vsd_squadron
+# VSD_SQUADRON MINI RISC-V TRAINING
 ## Task 1:
 
 Firstly, I have downloaded the virtual box from the links provided to us and
