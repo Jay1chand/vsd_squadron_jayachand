@@ -231,6 +231,52 @@ As shown in the figure below, all the instructions in the given verilog file is 
 
 ![image](https://github.com/user-attachments/assets/512edc06-4524-43f7-833f-e3d087869a38)
 
+The below is simulated outputs of the above verilog code given to us as cloned from https://github.com/vinayrayapati/rv32i.git my_riscv_project
 
+I have written the explanation below the corresponding images as i have'nt run the opcodes once each time, I have run them all together so we understand what
+instructions underwent through opcode (in the form of PC) and the registers which are below it.
 
+![image](https://github.com/user-attachments/assets/ef3dce57-b286-479e-911e-52dfafaf4007)
+
+The explanations for this case is as follows:
+
+Instruction 1: ADD R6, R2, R1
+0x02208300 represents the operation add r6, r1, r2. 
+Addition 1 + 2, resulting in 3
+
+Instruction 2: SUB R7, R1, R2
+0x02209300 represents the operation SUB R8, R1, R3.
+Substraction 1-2, resulting in -1
+
+Instruction 3: AND R8, R1, R3
+0x0230A400 represents the operation AND R8, R1, R3.
+And 3 and 1 results in 1
+
+Instruction 4: OR R9, R2, R5
+0x02513480 represents the operation OR R9, R2, R5
+OR operation (0010 | 0101) results in 7
+
+Instruction 5: XOR R10, R1, R4
+0x024005c0 represents the operartion XOR R10, R1, R4
+XOR (0001 ^ 0100) results in 5
+
+Instruction 6: SLT R1, R2, R4
+0x024155080 represents the operation SLT R1, R2, R4
+2 < 4, the output is 1
+
+Instruction 7: ADDI R12, R4, 5
+0x00520693 represnts the operation  ADDI R12, R4, 5
+R4 (4) added to the immediate value (5) results in 9
+
+![image](https://github.com/user-attachments/assets/d5d569b3-89ed-4567-9c1a-db0e75078db8)
+
+Instruction 8: BEQ R0, R0, 15
+0x00F00802 represents the operartion BEQ R0, R0, 15
+Both values equal so PC incremented by 15 PC=PC+15
+
+Instruction 9: BNE R0, R1, 20
+0x01409002 represnts the operation BNE R0, R1, 20
+both values not equal PC updated to PC+20 =46
+
+And from 130 seconds the default value will be shown which is useless as we didnt provide any instructions after that particular time.
 
