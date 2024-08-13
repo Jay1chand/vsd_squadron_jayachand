@@ -1,4 +1,6 @@
 # VSD_SQUADRON MINI RISC-V TRAINING
+
+------------------------------------------------------------------------------------------------------------------
 <details>
 	
 <summary> Task 1 :</summary>
@@ -35,7 +37,7 @@ part to compare the execution in assembly language:
 ![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
 
 </details>
-
+------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Task 2:</summary> 
 
@@ -69,6 +71,7 @@ Spike simulation:
 ![image](https://github.com/user-attachments/assets/e16a2aa1-139d-449c-ad9f-3275ec63ec7e)
 
 </details>
+------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>Task 3:</summary>
 
@@ -210,7 +213,7 @@ and assembly language corresponding to it.
 ![image](https://github.com/user-attachments/assets/8c252bd6-1313-450a-9efb-3e0510c9b171)
 
 </details>
-
+------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>TASK 4:</summary>
 
@@ -301,7 +304,8 @@ And from 130 seconds the default value will be shown which is useless as we didn
 
 <details>
 <summary>TASK 5:</summary> 
-
+------------------------------------------------------------------------------------------------------------------
+	
 ## IMPLEMENTATION OF 2 BIT COMPARATOR:
 
 ### Comparator:
@@ -476,3 +480,4 @@ int main()
 *	GPIOC, Pin_7: A>B (High if A is greater than B)
 
 </details>
+------------------------------------------------------------------------------------------------------------------
