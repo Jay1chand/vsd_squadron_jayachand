@@ -355,6 +355,11 @@ A 2-bit comparator is a digital circuit designed to compare two 2-bit binary num
 * **Outputs:** Three LEDs are connected to display the result of COMPARATOR
 * The GPIO pins are configured according to the Reference Mannual, ensuring the correct flow of signals between the components
 
+###### Circuit diagram:
+
+![image](https://github.com/user-attachments/assets/642beb60-dda3-446f-842a-41fd61db28c4)
+
+
 ##### HOW TO PROGRAM
 
 ```
@@ -500,3 +505,5 @@ int main()
 <summary><b>Task 6</b></summary>
  
 </details>
+
+------------------------------------------------------------------------------------------------------------------
