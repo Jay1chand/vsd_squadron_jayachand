@@ -455,11 +455,11 @@ int main()
 ##### **CONCLUSION OF TASK 5:**
 
 *  Input Pins:
-*	GPIOD, Pin_1: A1A1A1 (Most Significant Bit of A)
-*	GPIOD, Pin_2: A0A0A0 (Least Significant Bit of A)
-*	GPIOD, Pin_3: B1B1B1 (Most Significant Bit of B)
-*	GPIOD, Pin_4: B0B0B0 (Least Significant Bit of B)
+*	GPIOD, Pin_1: A1 (Most Significant Bit of A)
+*	GPIOD, Pin_2: A0 (Least Significant Bit of A)
+*	GPIOD, Pin_3: B1 (Most Significant Bit of B)
+*	GPIOD, Pin_4: B0 (Least Significant Bit of B)
 *  Output Pins:
-*	GPIOC, Pin_5: A==BA == BA==B (High if A equals B)
-*	GPIOC, Pin_6: A<BA < BA<B (High if A is less than B)
-*	GPIOC, Pin_7: A>BA > BA>B (High if A is greater than B)
+*	GPIOC, Pin_5: A==B (High if A equals B)
+*	GPIOC, Pin_6: A<B (High if A is less than B)
+*	GPIOC, Pin_7: A>B (High if A is greater than B)
