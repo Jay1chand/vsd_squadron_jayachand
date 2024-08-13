@@ -503,6 +503,11 @@ int main()
 
 <details>
 <summary><b>Task 6</b></summary>
+
+Build:
+
+![image](https://github.com/user-attachments/assets/8d81f25a-e0bb-4fc7-9fae-dbdcc2ac77ee)
+
  
 </details>
 
