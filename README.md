@@ -3,7 +3,7 @@
 ## **Basic details**
 * **Name:** S.V.Jaya Chand
 * **College:** IIT Indore 
-* **Email ID:** sjayachand@gmail.com 
+* **Email ID:** [Jaya chand](svjayachand@gmail.com) 
 * **GitHub Profile:** [Jay1chand](https://github.com/Jay1chand/vsd_squadron_jayachand)
 
 ----------------------------------------------------------------------------------------------------------------
