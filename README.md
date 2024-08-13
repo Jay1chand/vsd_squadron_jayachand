@@ -1,6 +1,6 @@
 # VSD_SQUADRON MINI RISC-V TRAINING
 
-
+## Basic details
 **Name:** S.V.Jaya Chand
 **College:** IIT Indore 
 **Email ID:** sjayachand@gmail.com 
