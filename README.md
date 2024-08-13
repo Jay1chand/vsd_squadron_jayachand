@@ -1,10 +1,10 @@
 # VSD_SQUADRON MINI RISC-V TRAINING
 
-## Basic details
-**Name:** S.V.Jaya Chand
-**College:** IIT Indore 
-**Email ID:** sjayachand@gmail.com 
-**GitHub Profile:** [Jay1chand](https://github.com/Jay1chand/vsd_squadron_jayachand)
+## **Basic details**
+* **Name:** S.V.Jaya Chand
+* **College:** IIT Indore 
+* **Email ID:** sjayachand@gmail.com 
+* **GitHub Profile:** [Jay1chand](https://github.com/Jay1chand/vsd_squadron_jayachand)
 
 ----------------------------------------------------------------------------------------------------------------
 
