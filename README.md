@@ -1,6 +1,5 @@
 # VSD_SQUADRON MINI RISC-V TRAINING
 
-------------------------------------------------------------------------------------------------------------------
 <details>
 	
 <summary> Task 1 :</summary>
@@ -299,12 +298,11 @@ Both values equal so PC incremented by 15 PC=PC+15
 both values not equal PC updated to PC+20 =46
 
 And from 130 seconds the default value will be shown which is useless as we didnt provide any instructions after that particular time.
-
 </details>
-
+------------------------------------------------------------------------------------------------------------------
 <details>
 <summary>TASK 5:</summary> 
-------------------------------------------------------------------------------------------------------------------
+
 	
 ## IMPLEMENTATION OF 2 BIT COMPARATOR:
 
