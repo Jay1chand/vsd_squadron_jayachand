@@ -34,9 +34,9 @@ part to compare the execution in assembly language:
 
 
 ![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
-
 </details>
 ------------------------------------------------------------------------------------------------------------------
+
 <details>
 <summary><b>Task 2:</b></summary> 
 
@@ -71,6 +71,7 @@ Spike simulation:
 
 </details>
 ------------------------------------------------------------------------------------------------------------------
+
 <details>
 <summary><b>Task 3:</b></summary>
 
@@ -213,6 +214,7 @@ and assembly language corresponding to it.
 
 </details>
 ------------------------------------------------------------------------------------------------------------------
+
 <details>
 <summary><b>Task 4:</b></summary>
 
@@ -300,6 +302,7 @@ both values not equal PC updated to PC+20 =46
 And from 130 seconds the default value will be shown which is useless as we didnt provide any instructions after that particular time.
 </details>
 ------------------------------------------------------------------------------------------------------------------
+
 <details>
 <summary><b>Task 5:</b></summary> 
 
@@ -478,4 +481,5 @@ int main()
 *	GPIOC, Pin_7: A>B (High if A is greater than B)
 
 </details>
+
 ------------------------------------------------------------------------------------------------------------------
