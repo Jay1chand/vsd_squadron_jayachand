@@ -1,5 +1,7 @@
 # VSD_SQUADRON MINI RISC-V TRAINING
-## Task 1:
+<details>
+	
+<summary> Task 1 :</summary>
 
 Firstly, I have downloaded the virtual box from the links provided to us and
 loaded a linux version with image dock file sent, Then I have successfully run the
@@ -32,9 +34,10 @@ part to compare the execution in assembly language:
 
 ![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
 
+</details>
 
-
-## Task 2:
+<details>
+<summary>Task 2:</summary> 
 
 For this task, we are instructed to observe the spike simulation and understand the execution of assembly code using -o1 and -ofast directives, I understood the principle
 and working of the whole program and how various registers like stack pointer and r5 are increasing, understood how the interface explains the process itself.
@@ -65,7 +68,9 @@ Spike simulation:
 
 ![image](https://github.com/user-attachments/assets/e16a2aa1-139d-449c-ad9f-3275ec63ec7e)
 
-## Task 3:
+</details>
+<details>
+<summary>Task 3:</summary>
 
 Various instructions of the RISC-V processor:
 
@@ -204,7 +209,10 @@ and assembly language corresponding to it.
 ![Image 11](https://github.com/user-attachments/assets/34dc0994-e3cc-4ae7-b361-e1de0f0db23f)
 ![image](https://github.com/user-attachments/assets/8c252bd6-1313-450a-9efb-3e0510c9b171)
 
-### TASK 4:
+</details>
+
+<details>
+<summary>TASK 4:</summary>
 
 Reference github repository with existing code for a RISC machine is : [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v)
 
@@ -289,7 +297,10 @@ both values not equal PC updated to PC+20 =46
 
 And from 130 seconds the default value will be shown which is useless as we didnt provide any instructions after that particular time.
 
-## TASK 5:
+</details>
+
+<details>
+<summary>TASK 5:</summary> 
 
 ## IMPLEMENTATION OF 2 BIT COMPARATOR:
 
@@ -463,3 +474,5 @@ int main()
 *	GPIOC, Pin_5: A==B (High if A equals B)
 *	GPIOC, Pin_6: A<B (High if A is less than B)
 *	GPIOC, Pin_7: A>B (High if A is greater than B)
+
+</details>
