@@ -2,7 +2,7 @@
 
 <details>
 	
-<summary> Task 1 :</summary>
+<summary> <b>Task 1 :</b></summary>
 
 Firstly, I have downloaded the virtual box from the links provided to us and
 loaded a linux version with image dock file sent, Then I have successfully run the
@@ -38,7 +38,7 @@ part to compare the execution in assembly language:
 </details>
 ------------------------------------------------------------------------------------------------------------------
 <details>
-<summary>Task 2:</summary> 
+<summary><b>Task 2:</b></summary> 
 
 For this task, we are instructed to observe the spike simulation and understand the execution of assembly code using -o1 and -ofast directives, I understood the principle
 and working of the whole program and how various registers like stack pointer and r5 are increasing, understood how the interface explains the process itself.
@@ -72,7 +72,7 @@ Spike simulation:
 </details>
 ------------------------------------------------------------------------------------------------------------------
 <details>
-<summary>Task 3:</summary>
+<summary><b>Task 3:</b></summary>
 
 Various instructions of the RISC-V processor:
 
@@ -214,7 +214,7 @@ and assembly language corresponding to it.
 </details>
 ------------------------------------------------------------------------------------------------------------------
 <details>
-<summary>TASK 4:</summary>
+<summary><b>Task 4:</b></summary>
 
 Reference github repository with existing code for a RISC machine is : [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/vinayrayapati/rv32i/blob/main/iiitb_rv32i.v)
 
@@ -301,7 +301,7 @@ And from 130 seconds the default value will be shown which is useless as we didn
 </details>
 ------------------------------------------------------------------------------------------------------------------
 <details>
-<summary>TASK 5:</summary> 
+<summary><b>Task 5:</b></summary> 
 
 	
 ## IMPLEMENTATION OF 2 BIT COMPARATOR:
