@@ -43,6 +43,7 @@ part to compare the execution in assembly language:
 
 ![image](https://github.com/user-attachments/assets/04d8a662-db78-40e4-8614-c7000e83b5f0)
 </details>
+
 ------------------------------------------------------------------------------------------------------------------
 
 <details>
@@ -78,6 +79,7 @@ Spike simulation:
 ![image](https://github.com/user-attachments/assets/e16a2aa1-139d-449c-ad9f-3275ec63ec7e)
 
 </details>
+
 ------------------------------------------------------------------------------------------------------------------
 
 <details>
@@ -221,6 +223,7 @@ and assembly language corresponding to it.
 ![image](https://github.com/user-attachments/assets/8c252bd6-1313-450a-9efb-3e0510c9b171)
 
 </details>
+
 ------------------------------------------------------------------------------------------------------------------
 
 <details>
@@ -309,6 +312,7 @@ both values not equal PC updated to PC+20 =46
 
 And from 130 seconds the default value will be shown which is useless as we didnt provide any instructions after that particular time.
 </details>
+
 ------------------------------------------------------------------------------------------------------------------
 
 <details>
