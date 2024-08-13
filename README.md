@@ -240,52 +240,226 @@ instructions underwent through opcode (in the form of PC) and the registers whic
 
 The explanations for this case is as follows:
 
-Instruction 1: ADD R6, R2, R1
+##### Instruction 1: ADD R6, R2, R1
 
 0x02208300 represents the operation add r6, r1, r2. 
 Addition 1 + 2, resulting in 3
 
-Instruction 2: SUB R7, R1, R2
+##### Instruction 2: SUB R7, R1, R2
 
 0x02209300 represents the operation SUB R8, R1, R3.
 Substraction 1-2, resulting in -1
 
-Instruction 3: AND R8, R1, R3
+##### Instruction 3: AND R8, R1, R3
 
 0x0230A400 represents the operation AND R8, R1, R3.
 And 3 and 1 results in 1
 
-Instruction 4: OR R9, R2, R5
+##### Instruction 4: OR R9, R2, R5
 
 0x02513480 represents the operation OR R9, R2, R5
 OR operation (0010 | 0101) results in 7
 
-Instruction 5: XOR R10, R1, R4
+##### Instruction 5: XOR R10, R1, R4
 
 0x024005c0 represents the operartion XOR R10, R1, R4
 XOR (0001 ^ 0100) results in 5
 
-Instruction 6: SLT R1, R2, R4
+##### Instruction 6: SLT R1, R2, R4
 
 0x024155080 represents the operation SLT R1, R2, R4
 2 < 4, the output is 1
 
-Instruction 7: ADDI R12, R4, 5
+##### Instruction 7: ADDI R12, R4, 5
 
 0x00520693 represnts the operation  ADDI R12, R4, 5
 R4 (4) added to the immediate value (5) results in 9
 
 ![image](https://github.com/user-attachments/assets/d5d569b3-89ed-4567-9c1a-db0e75078db8)
 
-Instruction 8: BEQ R0, R0, 15
+##### Instruction 8: BEQ R0, R0, 15
 
 0x00F00802 represents the operartion BEQ R0, R0, 15
 Both values equal so PC incremented by 15 PC=PC+15
 
-Instruction 9: BNE R0, R1, 20
+##### Instruction 9: BNE R0, R1, 20
 
 0x01409002 represnts the operation BNE R0, R1, 20
 both values not equal PC updated to PC+20 =46
 
 And from 130 seconds the default value will be shown which is useless as we didnt provide any instructions after that particular time.
 
+## TASK 5:
+
+## IMPLEMENTATION OF 2 BIT COMPARATOR:
+
+### Comparator:
+
+A 2-bit comparator is a digital circuit designed to compare two 2-bit binary numbers and determine their relative magnitude. This comparison results in three possible outputs: whether the first number is less than, equal to, or greater than the second number.
+
+#### Working:
+
+**Given two 2-bit binary numbers, A=A1A0 and B=B1B0**
+*	A1 and B1 are the most significant bits (MSB).
+*	A0 and B0 are the least significant bits (LSB).
+**The 2-bit comparator will produce three outputs**
+*	A < B: High (1) when AA is less than BB.
+*	A = B: High (1) when AA is equal to BB.
+*       A > B: High (1) when AA is greater than BB.
+
+##### TRUTH TABLE:
+
+![image](https://github.com/user-attachments/assets/19978a61-59bc-47c2-a9a4-c8edbe552293)
+
+###### **COMPONENTS REQUIRED**
+
+*  VSD Squadron mini
+*  Push Buttons for Input of binary data
+*  3 LED for displaying output data
+*  Breadboard
+*  Jumper Wires
+*  VS Code for Software Development
+*  PlatformIO multi framework professional IDE
+
+###### **HARDWARE CONNECTIONS**
+
+* **Input:** Four input of single bit are connected to the GPIO pins of VSDSquadron Mini via push buttons mounted on the breadboard. 
+* **Outputs:** Three LEDs are connected to display the result of COMPARATOR
+* The GPIO pins are configured according to the Reference Mannual, ensuring the correct flow of signals between the components
+
+##### HOW TO PROGRAM
+
+```
+// 2-Bit Comparator Implementation
+
+// Included the required header files
+#include<stdio.h>
+#include<debug.h>
+#include<ch32v00x.h>
+
+// Defining the Logic Gate Function 
+int and(int bit1, int bit2)
+{
+    int out = bit1 & bit2;
+    return out;
+}
+int or(int bit1, int bit2)
+{
+    int out = bit1 | bit2;
+    return out;
+}
+int not(int bit)
+{
+    int out = ~bit & 0x1;
+    return out;
+}
+int xor(int bit1, int bit2)
+{
+    int out = bit1 ^ bit2;
+    return out;
+}
+
+// Configuring GPIO Pins
+void GPIO_Config(void)
+{
+    GPIO_InitTypeDef GPIO_InitStructure = {0}; // structure variable used for GPIO configuration
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); // to enable the clock for port D
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // to enable the clock for port C
+    
+    // Input Pins Configuration
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1 | GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU; // Defined as Input Type
+    GPIO_Init(GPIOD, &GPIO_InitStructure);
+
+    // Output Pins Configuration
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Defined Output Type
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // Defined Speed
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
+}
+
+// The MAIN function responsible for the execution of program
+int main()
+{
+    uint8_t A1, A0, B1, B0; // 2-bit inputs A and B
+    uint8_t A_eq_B, A_lt_B, A_gt_B; // Outputs: A equals B, A less than B, A greater than B
+    uint8_t not_A1, not_A0, not_B1, not_B0;
+    uint8_t eq_bit1, eq_bit0, lt_bit1, lt_bit0, gt_bit1, gt_bit0;
+    
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+    SystemCoreClockUpdate();
+    Delay_Init();
+    GPIO_Config();
+
+    while(1)
+    {
+        // Reading the 2-bit inputs
+        A1 = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_1);
+        A0 = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_2);
+        B1 = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_3);
+        B0 = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_4);
+        
+        // Calculating A == B
+        eq_bit1 = not(xor(A1, B1));
+        eq_bit0 = not(xor(A0, B0));
+        A_eq_B = and(eq_bit1, eq_bit0);
+
+        // Calculating A < B
+        not_A1 = not(A1);
+        not_A0 = not(A0);
+        lt_bit1 = and(not_A1, B1);
+        lt_bit0 = and(eq_bit1, and(not_A0, B0));
+        A_lt_B = or(lt_bit1, lt_bit0);
+
+        // Calculating A > B
+        not_B1 = not(B1);
+        not_B0 = not(B0);
+        gt_bit1 = and(A1, not_B1);
+        gt_bit0 = and(eq_bit1, and(A0, not_B0));
+        A_gt_B = or(gt_bit1, gt_bit0);
+
+        /* Output A == B */
+        if(A_eq_B == 0)
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_5, SET);
+        }
+        else
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_5, RESET);
+        }
+
+        /* Output A < B */
+        if(A_lt_B == 0)
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_6, SET);
+        }
+        else
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_6, RESET);
+        }
+
+        /* Output A > B */
+        if(A_gt_B == 0)
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_7, SET);
+        }
+        else
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_7, RESET);
+        }
+    }
+}
+
+```
+
+##### **CONCLUSION OF TASK 5:**
+
+*  Input Pins:
+*	GPIOD, Pin_1: A1A1A1 (Most Significant Bit of A)
+*	GPIOD, Pin_2: A0A0A0 (Least Significant Bit of A)
+*	GPIOD, Pin_3: B1B1B1 (Most Significant Bit of B)
+*	GPIOD, Pin_4: B0B0B0 (Least Significant Bit of B)
+*  Output Pins:
+*	GPIOC, Pin_5: A==BA == BA==B (High if A equals B)
+*	GPIOC, Pin_6: A<BA < BA<B (High if A is less than B)
+*	GPIOC, Pin_7: A>BA > BA>B (High if A is greater than B)
