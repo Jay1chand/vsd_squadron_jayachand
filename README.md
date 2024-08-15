@@ -493,10 +493,11 @@ int main()
 *	GPIOD, Pin_3: B1 (Most Significant Bit of B)
 *	GPIOD, Pin_4: B0 (Least Significant Bit of B)
 *  Output Pins:
-*	GPIOC, Pin_5: A==B (High if A equals B)
-*	GPIOC, Pin_6: A<B (High if A is less than B)
-*	GPIOC, Pin_7: A>B (High if A is greater than B)
+*	GPIOC, Pin_5: A==B (LOW if A equals B)
+*	GPIOC, Pin_6: A<B (LOW if A is less than B)
+*	GPIOC, Pin_7: A>B (LOW if A is greater than B)
 
+In each case the rest 2 bulbs are on only the corresponding case is off.
 </details>
 
 ------------------------------------------------------------------------------------------------------------------
